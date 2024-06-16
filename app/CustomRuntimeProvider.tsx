@@ -2,8 +2,8 @@
 
 import {
 	AssistantRuntimeProvider,
-	type unstable_ChatModelAdapter as ChatModelAdapter,
-	unstable_useLocalRuntime as useLocalRuntime,
+	type ChatModelAdapter,
+	useLocalRuntime,
 } from "@assistant-ui/react";
 
 const CustomModelAdapter: ChatModelAdapter = {
